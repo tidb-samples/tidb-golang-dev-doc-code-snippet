@@ -15,7 +15,7 @@
 .PHONY: all build run
 
 all:
-	make prepare build run
+	make build run
 
 build:
 	go build -o bin/write-skew
